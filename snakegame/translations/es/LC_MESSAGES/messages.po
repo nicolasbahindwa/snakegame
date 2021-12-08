@@ -1,0 +1,111 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-12-03 08:55+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: snakegame/blueprints/billing/forms.py:25
+#: snakegame/blueprints/billing/forms.py:45
+msgid "Stripe publishable key"
+msgstr "Clave publicable de banda"
+
+#: snakegame/blueprints/billing/forms.py:27
+msgid "Plan"
+msgstr "el plan"
+
+#: snakegame/blueprints/billing/forms.py:29
+#: snakegame/blueprints/billing/forms.py:36
+#: snakegame/blueprints/billing/forms.py:50
+msgid "Do you have a coupon code?"
+msgstr "Tiene un código de cupón?"
+
+#: snakegame/blueprints/billing/forms.py:31
+#: snakegame/blueprints/billing/forms.py:52
+msgid "Name on card"
+msgstr "Nombre en la tarjeta"
+
+#: snakegame/blueprints/billing/forms.py:47
+msgid "How many coins do you want?"
+msgstr "Cuantas monedas quieres?"
+
+#: snakegame/blueprints/billing/templates/billing/payment_method.html:8
+msgid "Enter payment information"
+msgstr "Introduzca Información del pago"
+
+#: snakegame/blueprints/billing/templates/billing/payment_method.html:10
+msgid "Process payment"
+msgstr "Procesar pago"
+
+#: snakegame/blueprints/billing/templates/billing/payment_method.html:12
+msgid "Update payment information"
+msgstr "Actualizar la información de pago"
+
+#: snakegame/blueprints/billing/templates/billing/payment_method.html:14
+msgid "Update payment method"
+msgstr "Actualizar método de pago"
+
+#: snakegame/blueprints/billing/templates/billing/payment_method.html:25
+msgid "subscription"
+msgstr "suscripción"
+
+#: snakegame/blueprints/billing/templates/billing/payment_method.html:27
+msgid "This plan costs"
+msgstr "Este plan cuesta"
+
+#: snakegame/blueprints/billing/views/billing.py:59
+msgid "You already have an active subscription."
+msgstr "Ya tienes una suscripción activa."
+
+#: snakegame/blueprints/billing/views/billing.py:67
+msgid "Sorry, that plan did not exist."
+msgstr "Lo siento, ese plan no existía."
+
+#: snakegame/blueprints/billing/views/billing.py:82
+msgid "Awesome, thanks for subscribing!"
+msgstr "¡Genial, gracias por suscribirte!"
+
+#: snakegame/blueprints/billing/views/billing.py:84
+#: snakegame/blueprints/billing/views/billing.py:178
+#: snakegame/blueprints/billing/views/billing.py:235
+msgid "You must enable JavaScript for this request."
+msgstr "Debe habilitar JavaScript para esta solicitud."
+
+#: snakegame/blueprints/billing/views/billing.py:118
+msgid "Your subscription has been updated."
+msgstr "Su suscripción ha sido actualizada."
+
+#: snakegame/blueprints/billing/views/billing.py:132
+msgid "You do not have an active subscription."
+msgstr "No tienes una suscripción activa."
+
+#: snakegame/blueprints/billing/views/billing.py:142
+msgid "Sorry to see you go, your subscription has been cancelled."
+msgstr "Lamento que te vayas, tu suscripción ha sido cancelada."
+
+#: snakegame/blueprints/billing/views/billing.py:154
+msgid "You do not have a payment method on file."
+msgstr "No tiene un método de pago registrado."
+
+#: snakegame/blueprints/billing/views/billing.py:176
+msgid "Your payment method has been updated."
+msgstr "Se actualizó su método de pago."
+
+#: snakegame/blueprints/billing/views/billing.py:232
+#, python-format
+msgid "%(amount)s coins have been added to your account."
+msgstr "Se han agregado% (monto) s monedas a su cuenta."
+
